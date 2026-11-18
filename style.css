@@ -7,17 +7,20 @@
     display: flex;
     background-color: black;
     justify-content: space-between;
+    height: 5rem;
 }
 #titulo {
-    color:aliceblue
+    color:aliceblue;
+    
 }
 #ponto {
     background-color: orange;
     border-radius: 100%;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
 }
 .corpo{
+
     background-color: #ccc;
     height: 100vh;
     display: flex;
@@ -26,10 +29,18 @@
 }
 #principal {
     display: flex;
+    flex-direction: column;
     background-color: black;
+    
 }
 .butoes {
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-between;
+}
+.botao {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: orange;
 }
